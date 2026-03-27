@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dusun Krekah | Menuju Indonesia Emas 2045</title>
+    <meta name="description" content="Profil Dusun Krekah: Mengenal potensi pertanian, UMKM, pariwisata, dan kehidupan masyarakat lokal.">
+    <!-- Google Fonts Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Dusun Krekah</a>
+            <ul class="nav-links">
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#wilayah">Wilayah</a></li>
+                <li><a href="#potensi">Potensi</a></li>
+                <li><a href="#umkm">Produk</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#organisasi">Organisasi</a></li>
+                <li><a href="#kontak" class="btn-kontak">Kontak</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. HERO SECTION -->
+    <section id="beranda" class="hero bg-image">
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content fade-in-up">
+                <h1>Dusun Krekah</h1>
+                <p>Kenyamanan Natural, Kehangatan Sosial, Potensi Optimal.</p>
+                <div class="hero-buttons">
+                    <a href="#tentang" class="btn btn-primary">Jelajahi Dusun</a>
+                    <a href="#potensi" class="btn btn-outline">Lihat Potensi</a>
+                </div>
+            </div>
+            
+            <div class="hero-collage fade-in-up" style="transition-delay: 200ms;">
+                <div class="collage-item collage-1">
+                    <img src="assets/hero/2.jpg" alt="Kegiatan Dusun 1">
+                </div>
+                <div class="collage-item collage-2">
+                    <img src="assets/hero/5.jpg" alt="Kegiatan Dusun 2">
+                </div>
+                <div class="collage-item collage-3">
+                    <img src="assets/hero/4.jpg" alt="Kegiatan Dusun 3">
+                </div>
+                <div class="collage-item collage-4">
+                    <img src="assets/hero/3.jpg" alt="Kegiatan Dusun 4">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- 2. TENTANG DUSUN -->
+    <section id="tentang" class="about section-padding">
+        <div class="container about-grid">
+            <div class="about-img reveal">
+                <img src="assets/tentang.jpg" alt="Pemandangan Dusun Krekah">
+            </div>
+            <div class="about-text reveal">
+                <h2 class="section-title">Tentang Dusun Kami</h2>
+                <div class="title-underline"></div>
+                <p>Terletak di lereng perbukitan yang asri, Dusun Krekah adalah sebuah perkampungan yang masih menjaga erat tradisi dan kebersamaan. Alam yang hijau, udara yang segar, dan masyarakat yang ramah menjadikannya tempat kehidupan yang harmoni.</p>
+                <div class="about-features">
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+                        <div>
+                            <h4>Kenyamanan Alam</h4>
+                            <p>Area bersih dikelilingi vegetasi hijau yang sejuk.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-users"></i></div>
+                        <div>
+                            <h4>Solidaritas Guyub</h4>
+                            <p>Tingkat gotong royong dan kepedulian sosial tinggi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. WILAYAH DUSUN -->
+    <section id="wilayah" class="wilayah section-padding bg-light">
+        <div class="container reveal">
+            <div class="section-header">
+                <h2 class="section-title">Wilayah Administratif</h2>
+                <div class="title-underline center"></div>
+                <p>Dusun Krekah terbagi atas tiga kawasan blok kewilayahan.</p>
+            </div>
+            <div class="wilayah-grid">
+                <div class="wilayah-card" onclick="window.location.href='#peta'">
+                    <div class="w-icon"><i class="fas fa-map-marked-alt"></i></div>
+                    <h3>Krekah Utara</h3>
+                    <p>Mencakup pemukiman bagian atas yang terbagi menjadi RT 1, RT 2, dan RT 3.</p>
+                </div>
+                <div class="wilayah-card" onclick="window.location.href='#peta'">
+                    <div class="w-icon"><i class="fas fa-map-marked"></i></div>
+                    <h3>Krekah Selatan</h3>
+                    <p>Mencakup pusat kegiatan kewargaan di zona paruh bawah yang meliputi RT 4 dan RT 5.</p>
+                </div>
+                <div class="wilayah-card" onclick="window.location.href='#peta'">
+                    <div class="w-icon"><i class="fas fa-map"></i></div>
+                    <h3>Nogosari</h3>
+                    <p>Area pemekaran produktif yang difokuskan pada kawasan perbatasan, membawahi RT 6 dan RT 7.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. POTENSI DUSUN -->
+    <section id="potensi" class="potensi section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Potensi Unggulan</h2>
+                <div class="title-underline center"></div>
+                <p>Menjelajahi keunggulan sumber daya alam dan manusia di Dusun Krekah.</p>
+            </div>
+            
+            <div class="potensi-grid">
+                <div class="potensi-card reveal">
+                    <img src="assets/potensi/pertanian.jpg" alt="Pertanian">
+                    <div class="potensi-info">
+                        <h3><i class="fas fa-seedling"></i> Pertanian</h3>
+                        <p>Tanah yang subur menjadikan Krekah sebagai salah satu penghasil hasil bumi terbaik dengan tanaman sayur dan palawija.</p>
+                    </div>
+                </div>
+                <div class="potensi-card reveal" style="transition-delay: 100ms;">
+                    <img src="assets/potensi/umkm.jpg" alt="UMKM">
+                    <div class="potensi-info">
+                        <h3><i class="fas fa-store"></i> UMKM Unggulan</h3>
+                        <p>Produk olahan makanan ringan dan kerajinan tangan lokal yang berupaya merambah pasar lebih luas.</p>
+                    </div>
+                </div>
+                <div class="potensi-card reveal" style="transition-delay: 200ms;">
+                    <img src="assets/potensi/peternakan.jpg" alt="Peternakan">
+                    <div class="potensi-info">
+                        <h3><i class="fas fa-cow"></i> Peternakan</h3>
+                        <p>Sebagian besar warga beternak sapi dan kambing untuk menunjang perekonomian keluarga secara berkelanjutan.</p>
+                    </div>
+                </div>
+                <div class="potensi-card reveal" style="transition-delay: 300ms;">
+                    <img src="assets/potensi/wisata.jpg" alt="Wisata Alam">
+                    <div class="potensi-info">
+                        <h3><i class="fas fa-mountain"></i> Wisata Alam</h3>
+                        <p>Pemandangan yang menyegarkan mata cocok bagi wisatawan yang mencari ketenangan pedesaan otentik.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. PRODUK UMKM -->
+    <section id="umkm" class="umkm section-padding bg-light">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Katalog Produk UMKM</h2>
+                <div class="title-underline center"></div>
+                <p>Dukung dan nikmati hasil karya tangan masyarakat Dusun Krekah.</p>
+            </div>
+
+            <div class="umkm-grid">
+                <div class="umkm-item reveal">
+                    <div class="umkm-img-box">
+                        <img src="assets/umkm/1.jpg" alt="Kopi Bubuk">
+                        <a href="https://wa.me/6281234567890" target="_blank" class="btn-pesan">Pesan via WA</a>
+                    </div>
+                    <div class="umkm-detail">
+                        <h4>Kopi Bubuk Asli</h4>
+                        <p>Kopi robusta dari perkebunan Krekah, disangrai secara tradisional.</p>
+                    </div>
+                </div>
+                <div class="umkm-item reveal">
+                    <div class="umkm-img-box">
+                        <img src="assets/umkm/2.jpg" alt="Kerajinan Bambu">
+                        <a href="https://wa.me/6281234567890" target="_blank" class="btn-pesan">Pesan via WA</a>
+                    </div>
+                    <div class="umkm-detail">
+                        <h4>Kerajinan Bambu</h4>
+                        <p>Aneka keranjang dan hiasan rumah berbahan bambu lokal pilihan.</p>
+                    </div>
+                </div>
+                <div class="umkm-item reveal">
+                    <div class="umkm-img-box">
+                        <img src="assets/umkm/3.jpg" alt="Keripik Pisang">
+                        <a href="https://wa.me/6281234567890" target="_blank" class="btn-pesan">Pesan via WA</a>
+                    </div>
+                    <div class="umkm-detail">
+                        <h4>Keripik Krekah</h4>
+                        <p>Keripik pisang dan singkong dengan cita rasa gurih tanpa pengawet buatan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. GALERI (AUTO SCROLL INFINITE) -->
+    <section id="galeri" class="galeri section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Potret Krekah</h2>
+                <div class="title-underline center"></div>
+                <p>Geser atau tahan untuk melihat galeri visual.</p>
+            </div>
+        </div>
+        
+        <div class="gallery-wrapper reveal">
+            <div class="gallery-scroll" id="galleryContainer">
+                <div class="gallery-track" id="galleryTrack">
+                    <!-- Images will be duplicated via JS for infinite loop -->
+                    <img src="assets/galeri/1.jpg" alt="Galeri 1" class="gallery-img">
+                    <img src="assets/galeri/2.jpg" alt="Galeri 2" class="gallery-img">
+                    <img src="assets/galeri/3.jpg" alt="Galeri 3" class="gallery-img">
+                    <img src="assets/galeri/4.jpg" alt="Galeri 4" class="gallery-img">
+                    <img src="assets/galeri/5.jpg" alt="Galeri 5" class="gallery-img">
+                </div>
+            </div>
+        </div>
+
+        <!-- Single Image Lightbox -->
+        <div class="lightbox" id="lightbox">
+            <span class="close-lightbox" id="closeLightbox">&times;</span>
+            <img class="lightbox-img" id="lightboxImg" src="" alt="Gambar Besar">
+        </div>
+    </section>
+
+    <!-- 7. STRUKTUR ORGANISASI -->
+    <section id="organisasi" class="organisasi section-padding bg-light">
+        <div class="container reveal">
+            <div class="section-header">
+                <h2 class="section-title">Struktur Organisasi</h2>
+                <div class="title-underline center"></div>
+                <p>Susunan kepengurusan struktural Dusun Krekah (Klik pada kotak pengurus untuk melihat galeri).</p>
+            </div>
+
+            <div class="tree-container">
+                <div class="tree">
+                    <ul>
+                        <li>
+                            <div class="tree-node head">
+                                <h4>Kepala Dusun</h4>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div class="tree-node org-box clickable-node" data-org="Karang Taruna">
+                                        <h4>Karang Taruna</h4>
+                                    </div>
+                                    <ul>
+                                        <li><div class="tree-node child-node clickable-node" data-org="OSKAR"><p>OSKAR</p></div></li>
+                                        <li><div class="tree-node child-node clickable-node" data-org="MIKAZE"><p>MIKAZE</p></div></li>
+                                        <li><div class="tree-node child-node clickable-node" data-org="ORENS"><p>ORENS</p></div></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="tree-node org-box clickable-node" data-org="Paguyuban RT">
+                                        <h4>RT</h4>
+                                    </div>
+                                    <ul>
+                                        <li><div class="tree-node child-node clickable-node" data-org="RT 1 - RT 3"><p>RT 1 - 3</p></div></li>
+                                        <li><div class="tree-node child-node clickable-node" data-org="RT 4 - RT 5"><p>RT 4 - 5</p></div></li>
+                                        <li><div class="tree-node child-node clickable-node" data-org="RT 6 - RT 8"><p>RT 6 - 8</p></div></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="tree-node org-box clickable-node" data-org="Kader Posyandu">
+                                        <h4>Posyandu</h4>
+                                    </div>
+                                    <ul>
+                                        <li><div class="tree-node child-node clickable-node" data-org="Posyandu Balita"><p>Balita</p></div></li>
+                                        <li><div class="tree-node child-node clickable-node" data-org="Posyandu Remaja"><p>Remaja</p></div></li>
+                                        <li><div class="tree-node child-node clickable-node" data-org="Posyandu Lansia"><p>Lansia</p></div></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. PETA DUSUN & KONTAK -->
+    <section id="peta" class="peta section-padding">
+        <div class="container reveal">
+            <div class="section-header">
+                <h2 class="section-title">Pemetaan & Info Lokasi</h2>
+                <div class="title-underline center"></div>
+                <p>Denah tata ruang wilayah pengurusan di Dusun Krekah.</p>
+            </div>
+            
+            <div class="peta-layout">
+                <div class="peta-teks">
+                    <div class="wilayah-info-box">
+                        <h4>Krekah Utara</h4>
+                        <span>RT 1, 2, 3</span>
+                    </div>
+                    <div class="wilayah-info-box">
+                        <h4>Krekah Selatan</h4>
+                        <span>RT 4, 5</span>
+                    </div>
+                    <div class="wilayah-info-box">
+                        <h4>Nogosari</h4>
+                        <span>RT 6, 7</span>
+                    </div>
+                    <div class="map-link-btn">
+                        <a href="https://maps.app.goo.gl/AMg66G7DzAgBMoio7" target="_blank" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Buka Google Maps</a>
+                    </div>
+                </div>
+                <div class="map-embed">
+                    <iframe src="https://maps.google.com/maps?q=Krekah&t=&z=14&ie=UTF8&iwloc=&output=embed" width="100%" height="400" style="border:0; border-radius: 12px; box-shadow: var(--shadow);" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. FOOTER KONTAK -->
+    <footer id="kontak" class="footer">
+        <div class="container footer-content-grid">
+            <div class="footer-brand">
+                <h2>Dusun Krekah</h2>
+                <p>Kearifan Lokal, Potensi Global</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-kontak">
+                <h3>Hubungi Kami</h3>
+                <div class="contact-list">
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i> 
+                        <a href="https://maps.app.goo.gl/AMg66G7DzAgBMoio7" target="_blank" class="map-link">Krekah, Kec. Contoh, Kab. Contoh</a>
+                    </p>
+                    <p><i class="fas fa-envelope"></i> info.krekah@gmail.com</p>
+                    <p>
+                        <i class="fab fa-whatsapp"></i> 
+                        <a href="https://wa.me/6281234567890" target="_blank" class="wa-link">0812-3456-7890</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Dusun Krekah. Seluruh hak cipta terdaftar.</p>
+        </div>
+    </footer>
+
+    <!-- MODAL KEGIATAN ORGANISASI -->
+    <div class="org-modal" id="orgModal">
+        <div class="org-modal-content">
+            <span class="close-org-modal" id="closeOrgModal">&times;</span>
+            <h3 id="orgModalTitle">Galeri Kegiatan</h3>
+            <div class="title-underline"></div>
+            <p style="margin-bottom: 20px; color: var(--text-muted); font-size: 0.9rem;">Dokumentasi kegiatan oleh pengurus terkait.</p>
+            <div class="org-modal-gallery" id="orgModalGallery">
+                <!-- Images dynamically injected -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
